@@ -1,0 +1,259 @@
+﻿@page "/Guilds/{Id}"
+@attribute [Authorize] //Ensures the user is authorized prior to accessing the pages content
+@inherits LayoutComponentBase
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextAccessor
+@inject DarlingWeb.Data.UserService usrSvc
+@inject Data.IGuildService GuildService
+
+
+@if (state == State.Loading)
+{
+    <h1>Загружаем Сервер :)</h1>
+    <p><em>Пук пук пук...</em></p>
+}
+else if (state == State.Unavailable)
+{
+    <h1>Сервер недоступен</h1>
+    <p><em>Повторите еще раз или позже...</em></p>
+}
+else
+{
+    <h1>Управление @DscGuild.Name</h1>
+    <p>Id: @DscGuild.Id</p>
+
+
+<div class="form-group row">
+    <EditForm class="col-md-4 mb-3" Model="ThisGuild" OnSubmit="HandleSubmit">     
+        <div>
+            <label for="prefix">Префикс</label>
+            <InputText id="prefix" @bind-Value="ThisGuild.Prefix" class="form-control"/>
+        </div>
+    @*    <div>
+            <label for="privatechannel">Приватный канал</label>
+            <InputText id="privatechannel" class="form-control" ></InputText>
+        </div>
+        <div>
+            <label for="heroname">Hero Name</label>
+            <InputText id="heroname" @bind-Value="hero.HeroName" class="form-control"></InputText>
+        </div>
+        <div>
+            <label>Приватный канал</label><br />
+            <InputSelect @bind-Value="hero.ComicId" class="form-select">
+                @foreach (var comic in SuperHeroService.Comics)
+                {
+                    <option value="@comic.Id">@comic.Name</option>
+                }
+            </InputSelect>
+        </div>*@
+        <br/>
+        <button type="submit" class="btn btn-primary">Сохранить</button>
+    </EditForm>
+</div>
+
+
+
+
+
+
+
+
+
+    <EditForm Model="ThisGuild" class="col-6 row" OnSubmit="HandleSubmit">     
+
+        <div class="col-6 col-md-4">
+           <label for="prefix">Получение опыта</label>
+           <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">Включить</label>
+           </div>
+           <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">Выключить</label>
+           </div>
+        </div>
+        <div class="col-6 col-md-4">
+           <label for="prefix">Получение опыта</label>
+           <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">Включить</label>
+           </div>
+           <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">Выключить</label>
+           </div>
+        </div>
+        <div class="col-6 col-md-4">
+           <label for="prefix">Получение опыта</label>
+           <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">Включить</label>
+           </div>
+           <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">Выключить</label>
+           </div>
+        </div>
+
+        <br/>
+        <button type="submit" class="btn btn-primary">Сохранить</button>
+
+    </EditForm>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*    <EditForm Model="ThisGuild" OnSubmit="HandleSubmit">
+    <div>
+        <label for="prefix">Prefix</label>
+        <InputText id="prefix" @bind-Value="ThisGuild.Prefix" class="form-control"></InputText>
+    </div>
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+    </EditForm>
+      <select id="inputState" class="form-control">
+          @if(DscChannel?.Count > 0)
+                {
+                    <option value="0" selected>Канал не выбран</option>
+                    @foreach (var channel in DscChannel.Where(x=>x.TypeConvert == Data.Models.Channel.ChannelType.GUILD_VOICE))
+					{
+						@if((StableGuild.PrivateId == 0 || StableGuild.PrivateId == Convert.ToUInt64(channel.Id)) && !PrivateChannelSelected)
+                        {
+                            if(StableGuild.PrivateId == 0)
+                            {
+                                
+                                <option>@channel.Name</option>
+                            }
+                            else
+                            {
+                                <option itemid="" selected>@channel.Name</option>
+                            }
+                            
+                            PrivateChannelSelected = true;
+                        }
+                        else
+                        {
+                            <option>@channel.Name</option>
+                        }
+					}
+                }
+      </select>*@
+
+      <div class="form-group col-md-4">
+      <label for="inputState">Приватный канал</label>
+      <EditForm Model="@VoiceChannel">
+      <InputSelect id="FirstString" @bind-Value="PrivateChannelId">
+          <option value="0" selected>Канал не выбран</option>
+            @if(DscChannel?.Count > 0)
+            {
+                @foreach (var channel in DscChannel.Where(x => x.TypeConvert == Data.Models.Channel.ChannelType.GUILD_VOICE))
+                {
+                    @if ((StableGuild.PrivateId == 0 || StableGuild.PrivateId == Convert.ToUInt64(channel.Id)) && !PrivateChannelSelected)
+                        {
+                           if(StableGuild.PrivateId == 0)
+                            {
+                                <option value="@channel.Id">@channel.Name</option>
+                            }
+                            else
+                            {
+                                <option value="@channel.Id" selected>@channel.Name</option>
+                            }
+                            
+                            PrivateChannelSelected = true; 
+                        }
+                    
+                }
+            }
+      </InputSelect>
+          </EditForm>
+    </div>
+
+
+}
+
+@code {
+    [Parameter]
+    public string Id { get; set; }
+    public DarlingWeb.Data.Models.Guild DscGuild { get; set; }
+    public List<DarlingWeb.Data.Models.Channel> DscChannel { get; set; }
+    public State state = State.Loading;
+    public bool PrivateChannelSelected { get; set; }
+    public string PrivateChannelId { get; set; }
+    public enum State
+    {
+        Loading,
+        Unavailable,
+        Loaded
+    }
+    DarlingDb.Models.Guilds StableGuild = new DarlingDb.Models.Guilds();
+    DarlingDb.Models.Guilds ThisGuild = new DarlingDb.Models.Guilds();
+    DarlingDb.Models.Channel VoiceChannel = new DarlingDb.Models.Channel();
+
+
+
+    async Task HandleSubmit()
+    {
+        ulong Id = Convert.ToUInt64(PrivateChannelId);
+        if(ThisGuild.Prefix != StableGuild.Prefix || ThisGuild.PrivateId != StableGuild.PrivateId)
+            await GuildService.UpdateGuild(ThisGuild, Convert.ToUInt64(Id));
+
+    }
+
+    //Use OnParametersSet since the guild id can be changed without the page re-rendering the new content otherwise
+    protected override async Task OnParametersSetAsync()
+    {
+        DscGuild = null;
+        StableGuild = null;
+        DscChannel = null;
+        PrivateChannelSelected = false;
+        state = State.Loading;
+
+        if (Id == null || Id == "0")
+        {
+            //TODO: show all available guilds?
+            //Probably not needed since guilds are now populated on the sidebar
+            state = State.Unavailable;
+        }
+        else    
+        {
+            DscGuild = await GetGuild(Id);
+            if (DscGuild == null)
+                state = State.Unavailable;
+            else
+            {
+                ulong Ids = Convert.ToUInt64(Id);
+                    ThisGuild = await GuildService.GetGuild(Ids);
+                    DscChannel = await usrSvc.GetChannelsGuildsAsync(httpContextAccessor.HttpContext, Ids);
+                    StableGuild = ThisGuild;
+                    state = State.Loaded;
+                
+                
+            }
+        }
+        
+    }
+
+    private async Task<Data.Models.Guild> GetGuild(string id)
+    {
+        var guilds = await usrSvc.GetBotGuildsAsync(httpContextAccessor.HttpContext);
+        var match = guilds.FirstOrDefault(x => x.Id == id);
+        return match;
+    }
+}

@@ -1,0 +1,24 @@
+﻿@inherits LayoutComponentBase
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4" style="color:white">
+        <a href="https://docs.darlingbot.ru" target="_blank">Инструкция</a>
+        <AuthorizeView>
+            <Authorized>
+                <a  style="color:white">Привет, @context.User.Identity.Name!</a>
+                <button type="button" class="btn btn-danger" onClick='location.href="Account/LogOut"'>Выйти</button>
+@*                <a style="color:white" >Выход</a>*@
+            </Authorized>
+            <NotAuthorized>
+                <button type="button" class="btn btn-success" onClick='location.href="Account/Login"' >Войти</button>
+@*                <a style="color:white" href="Account/Login">Войти</a>*@
+            </NotAuthorized>
+        </AuthorizeView>
+    </div>
+    <div class="content px-4">
+        @Body
+    </div>
+</div>

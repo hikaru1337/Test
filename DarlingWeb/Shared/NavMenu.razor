@@ -1,0 +1,55 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextAccessor
+@inject DarlingWeb.Data.UserService usrSvc
+
+
+<div class="top-row pl-4 navbar navbar-dark">
+	<a class="navbar-brand" style="color:white" href="/" >DarlingBot</a>
+	<button class="navbar-toggler">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+</div>
+
+<div>
+	<ul class="nav flex-column">
+		<AuthorizeView>
+			<Authorized>
+				@if(guilds != null)
+				{
+					@foreach (var guild in guilds)
+					{
+						<li class="nav-item px-2">
+							<a class="nav-link" href="/Guilds/@guild.Id" Match="NavLinkMatch.All">
+								<span aria-hidden="true">@guild.Name</span>
+							</a>
+						</li>
+					}
+				}
+			</Authorized>
+			<NotAuthorized>
+				<li class="nav-item px-2">
+					<span style="color:white">Войдите чтобы увидеть сервера!</span>
+				</li>
+			</NotAuthorized>
+		</AuthorizeView>
+	</ul>
+</div>
+
+
+@code {
+
+
+	private DarlingWeb.Data.Models.DiscordUser claim;
+	private string token;
+	private List<DarlingWeb.Data.Models.Guild> guilds;
+
+	protected override async Task OnInitializedAsync()
+	{
+		if (httpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+		{
+			claim = usrSvc.GetInfo(httpContextAccessor.HttpContext);
+			token = await usrSvc.GetUserTokenAsync(httpContextAccessor.HttpContext);
+			guilds = await usrSvc.GetBotGuildsAsync(httpContextAccessor.HttpContext);
+		}
+	}
+}

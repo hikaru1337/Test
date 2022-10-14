@@ -1,0 +1,15 @@
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\bin\Debug\net5.0\alpine-x64\DarlingDb.deps.json
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\bin\Debug\net5.0\alpine-x64\DarlingDb.runtimeconfig.json
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\bin\Debug\net5.0\alpine-x64\DarlingDb.runtimeconfig.dev.json
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\bin\Debug\net5.0\alpine-x64\DarlingDb.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\bin\Debug\net5.0\alpine-x64\DarlingDb.pdb
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\obj\Debug\net5.0\alpine-x64\DarlingDb.csproj.AssemblyReference.cache
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\obj\Debug\net5.0\alpine-x64\DarlingDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\obj\Debug\net5.0\alpine-x64\DarlingDb.AssemblyInfoInputs.cache
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\obj\Debug\net5.0\alpine-x64\DarlingDb.AssemblyInfo.cs
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\obj\Debug\net5.0\alpine-x64\DarlingDb.csproj.CoreCompileInputs.cache
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\obj\Debug\net5.0\alpine-x64\DarlingDb.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\obj\Debug\net5.0\alpine-x64\refint\DarlingDb.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\obj\Debug\net5.0\alpine-x64\DarlingDb.pdb
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\obj\Debug\net5.0\alpine-x64\DarlingDb.genruntimeconfig.cache
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingDb\obj\Debug\net5.0\alpine-x64\ref\DarlingDb.dll
