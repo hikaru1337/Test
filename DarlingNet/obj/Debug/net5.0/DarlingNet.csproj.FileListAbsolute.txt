@@ -1,0 +1,254 @@
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.csproj.AssemblyReference.cache
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.AssemblyInfoInputs.cache
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.AssemblyInfo.cs
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.csproj.CoreCompileInputs.cache
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.exe
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.deps.json
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.runtimeconfig.json
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.runtimeconfig.dev.json
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\ref\DarlingNet.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.pdb
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\CacheManager.Core.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.Commands.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.Core.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.Rest.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.Webhook.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.WebSocket.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\EasyCaching.Core.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\EFCoreSecondLevelCacheInterceptor.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Humanizer.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\NetEscapades.Configuration.Yaml.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\PcgRandom.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Collections.Immutable.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Interactive.Async.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Linq.Async.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\TimeZoneConverter.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\YamlDotNet.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.csproj.CopyComplete
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\ref\DarlingNet.dll
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.pdb
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.genruntimeconfig.cache
+C:\Users\h1kkaru\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Nekos-Sharp.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.exe
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.deps.json
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.runtimeconfig.json
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.runtimeconfig.dev.json
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.pdb
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\CacheManager.Core.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.Commands.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.Core.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.Interactions.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.Rest.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.WebSocket.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\EasyCaching.Core.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\EFCoreSecondLevelCacheInterceptor.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Humanizer.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Nekos-Sharp.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\NetEscapades.Configuration.Yaml.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\PcgRandom.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Collections.Immutable.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Interactive.Async.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Linq.Async.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Reactive.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\YamlDotNet.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.AssemblyInfoInputs.cache
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.AssemblyInfo.cs
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.csproj.CoreCompileInputs.cache
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.csproj.CopyComplete
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\ref\DarlingNet.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.pdb
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.genruntimeconfig.cache
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.csproj.AssemblyReference.cache
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\XXXPOSOSI\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\refint\DarlingNet.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.exe
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.deps.json
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.runtimeconfig.json
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.runtimeconfig.dev.json
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingNet.pdb
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\CacheManager.Core.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.Commands.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.Core.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.Interactions.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.Rest.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Discord.Net.WebSocket.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\EasyCaching.Core.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\EFCoreSecondLevelCacheInterceptor.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Nekos-Sharp.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\NetEscapades.Configuration.Yaml.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\PcgRandom.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Collections.Immutable.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Interactive.Async.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Linq.Async.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Reactive.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\YamlDotNet.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.csproj.AssemblyReference.cache
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.AssemblyInfoInputs.cache
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.AssemblyInfo.cs
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.csproj.CoreCompileInputs.cache
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.csproj.CopyComplete
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\refint\DarlingNet.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.pdb
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\DarlingNet.genruntimeconfig.cache
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\obj\Debug\net5.0\ref\DarlingNet.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingDb.dll
+C:\Users\Lil' KlowN\source\repos\DarlingNet\DarlingNet\bin\Debug\net5.0\DarlingDb.pdb

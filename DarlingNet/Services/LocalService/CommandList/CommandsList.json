@@ -1,0 +1,693 @@
+﻿{
+  "ban": {
+    "Category": "",
+    "MinDesc": "Выдать бан",
+    "Desc": "Выдать бан пользователю.",
+    "Usage": [ "bn", "ban" ]
+  },
+  "application": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Настройка модулей бота.",
+    "Usage": [ "app", "application" ]
+  },
+  "unban": {
+    "Category": "",
+    "MinDesc": "Выдать разбан",
+    "Desc": "Разбанить пользователя.",
+    "Usage": [ "ubn", "unban" ]
+  },
+  "warn": {
+    "Category": "WarnSystem",
+    "MinDesc": "Выдать нарушение. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#vydat-varn-polzovatelyu)",
+    "Desc": "Выдать нарушение пользователю. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#vydat-varn-polzovatelyu)",
+    "Usage": [ "w", "warn" ]
+  },
+  "kick": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Кикнуть пользователя.",
+    "Usage": [ "kk", "kick" ]
+  },
+  "mute": {
+    "Category": "Мут",
+    "MinDesc": "",
+    "Desc": "Замутить пользователя.",
+    "Usage": [ "mt", "mute" ]
+  },
+  "unmute": {
+    "Category": "Мут",
+    "MinDesc": "",
+    "Desc": "Размутить пользователя или снять временный мут.",
+    "Usage": [ "umt", "unmute" ]
+  },
+  "timeout": {
+    "Category": "Мут",
+    "MinDesc": "Временный мут",
+    "Desc": "Выдать временный мут пользователю. Максимально - 28 дней.\nВремя - 01:00:00 [ч:м:с]\nВремя 2 - 01:00:00:00 [д:ч:м:с].",
+    "Usage": [ "to", "timeout" ]
+  },
+
+  "unwarn": {
+    "Category": "WarnSystem",
+    "MinDesc": "Убрать нарушение. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#snyat-varn-s-polzovatelya)",
+    "Desc": "Убрать нарушение у пользователя. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#snyat-varn-s-polzovatelya)",
+    "Usage": [ "uw", "unwarn" ]
+  },
+  "clear": {
+    "Category": "Сообщения",
+    "MinDesc": "",
+    "Desc": "Очистить N кол-во сообщений. [Инструкция](https://docs.darlingbot.ru/commands/komandy-adminov/clear)",
+    "Usage": [ "clr", "clear" ]
+  },
+  "userclear": {
+    "Category": "Сообщения",
+    "MinDesc": "",
+    "Desc": "Очистить N кол-во сообщений пользователя. [Инструкция](https://docs.darlingbot.ru/commands/komandy-adminov/userclear)",
+    "Usage": [ "uclr", "userclear" ]
+  },
+  "embedsay": {
+    "Category": "Сообщения",
+    "MinDesc": "",
+    "Desc": "Создать Embed сообщение. [Инструкция](https://docs.darlingbot.ru/commands/komandy-adminov/embedsay)",
+    "Usage": [ "es", "embedsay" ]
+  },
+  "say": {
+    "Category": "Сообщения",
+    "MinDesc": "",
+    "Desc": "Создать сообщение от имени бота.",
+    "Usage": [ "say", "say" ]
+  },
+  "boost": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Купить подписку на бота.",
+    "Usage": [ "boost", "boost" ]
+  },
+  "invitebot": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Пригласить бота на сервер.",
+    "Usage": [ "invitebot", "invitebot" ]
+  },
+  "feedback": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Отправить ошибку/предложение о боте.",
+    "Usage": [ "fb", "feedback" ]
+  },
+  "myfeedback": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Посмотреть свои тикеты о боте.",
+    "Usage": [ "mfb", "myfeedback" ]
+  },
+  "giveawaystart": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Запустить розыгрыш.",
+    "Usage": [ "gstart", "giveawaystart" ]
+  },
+  "giveawaystop": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Остановить розыгрыш.",
+    "Usage": [ "gstop", "giveawaystop" ]
+  },
+  "serverinfo": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Информацию о текущем/выбранном сервере.",
+    "Usage": [ "si", "serverinfo" ]
+  },
+  "sendusermessage": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Личное сообщение для пользователя.",
+    "Usage": [ "sum", "sendusermessage" ]
+  },
+  "getinvite": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "",
+    "Usage": [ "gi", "getinvite" ]
+  },
+  "setlevel": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "",
+    "Usage": [ "sl", "setlevel" ]
+  },
+  "setpoint": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "",
+    "Usage": [ "sp", "setpoint" ]
+  },
+  "setcoin": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "",
+    "Usage": [ "sc", "setcoin" ]
+  },
+
+
+  "modules": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Открыть модули бота. [Инструкция](https://docs.darlingbot.ru/commands/first-commands/modules)",
+    "Usage": [ "m", "modules" ]
+  },
+  "commands": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Команды выбранного модуля. [Инструкция](https://docs.darlingbot.ru/commands/first-commands/commands)",
+    "Usage": [ "c", "commands" ]
+  },
+  "info": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Информацию о команде. [Инструкция](https://docs.darlingbot.ru/commands/first-commands/info)",
+    "Usage": [ "i", "info" ]
+  },
+  "use": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Информацию о боте. [Инструкция](https://docs.darlingbot.ru/commands/first-commands/use)",
+    "Usage": [ "u", "use" ]
+  },
+
+
+  "yuri": {
+    "Category": "",
+    "MinDesc": "Yuri 18+ gif.s",
+    "Desc": "Yuri 18+ gif. Yuri - жанр манги и аниме, изображающий женские гомосексуальные отношения.",
+    "Usage": [ "", "" ]
+  },
+  "anal": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Anal 18+ gif.",
+    "Usage": [ "", "" ]
+  },
+  "blowjob": {
+    "Category": "",
+    "MinDesc": "Blowjob 18+ gif.",
+    "Desc": "Blowjob 18+ gif. Blowjob - минет, или же оральный секс.",
+    "Usage": [ "", "" ]
+  },
+  "boobs": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Boobs 18+ gif. Boobs - женская грудь.",
+    "Usage": [ "", "" ]
+  },
+  "classic": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Classic 18+ gif. Обычные 18+ гифки.",
+    "Usage": [ "", "" ]
+  },
+  "cum": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Cum 18+ gif. Cum - мужское выделение.",
+    "Usage": [ "", "" ]
+  },
+  "feet": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Feet 18+ gif. Женские ножки.",
+    "Usage": [ "", "" ]
+  },
+  "hentai": {
+    "Category": "",
+    "MinDesc": "Hentai 18+ gif.",
+    "Desc": "Hentai 18+ gif. Hentai -  жанр японской анимации, а также изображений, основным элементом которых являются содержащиеся в них эротических сцен.",
+    "Usage": [ "", "" ]
+  },
+  "kuni": {
+    "Category": "",
+    "MinDesc": "Kuni 18+ gif.",
+    "Desc": "Kuni 18+ gif. Kuni - оральный секс со стороны мужской половины",
+    "Usage": [ "", "" ]
+  },
+  "neko": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Neko 18+ gif. 18+ кошечки.",
+    "Usage": [ "", "" ]
+  },
+  "pussy": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Pussy 18+ gif. Pussy - женский половой орган.",
+    "Usage": [ "", "" ]
+  },
+  "pwank": {
+    "Category": "",
+    "MinDesc": "Pwank 18+ gif.",
+    "Desc": "Pwank 18+ gif. Женская мастурбация.",
+    "Usage": [ "", "" ]
+  },
+  "solo": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Solo 18+ gif.",
+    "Usage": [ "", "" ]
+  },
+  "spank": {
+    "Category": "",
+    "MinDesc": "Spank 18+ gif.",
+    "Desc": "Spank 18+ gif.",
+    "Usage": [ "", "" ]
+  },
+  "eroneko": {
+    "Category": "",
+    "MinDesc": "EroNeko 18+ PNG.",
+    "Desc": "EroNeko 18+ PNG. Эротические фото кошечек.",
+    "Usage": [ "", "" ]
+  },
+  "ahegao": {
+    "Category": "",
+    "MinDesc": "Ahegao 18+ PNG.",
+    "Desc": "Ahegao 18+ PNG. Термин в японской порнографии, описывающий выражение лица во время секса.",
+    "Usage": [ "", "" ]
+  },
+  "cosplay": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Cosplay 18+ PNG.",
+    "Usage": [ "", "" ]
+  },
+  "erofeet": {
+    "Category": "",
+    "MinDesc": "EroFeet 18+ PNG.",
+    "Desc": "EroFeet 18+ PNG.",
+    "Usage": [ "", "" ]
+  },
+  "trap": {
+    "Category": "",
+    "MinDesc": "Trap 18+ PNG.",
+    "Desc": "Trap 18+ PNG.",
+    "Usage": [ "Trap", "Trap" ]
+  },
+
+  "cuddle": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Cuddle gif.",
+    "Usage": [ "", "" ]
+  },
+  "feed": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Feed gif.",
+    "Usage": [ "", "" ]
+  },
+  "hug": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Hug gif.",
+    "Usage": [ "", "" ]
+  },
+  "kiss": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Kiss gif.",
+    "Usage": [ "", "" ]
+  },
+  "Pat": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Pat gif.",
+    "Usage": [ "", "" ]
+  },
+  "poke": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Poke gif.",
+    "Usage": [ "", "" ]
+  },
+  "slap": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Slap gif.",
+    "Usage": [ "", "" ]
+  },
+  "tickle": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Tickle gif.",
+    "Usage": [ "", "" ]
+  },
+  "baka": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Baka gif.",
+    "Usage": [ "", "" ]
+  },
+  "nekos": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Nekos gif.",
+    "Usage": [ "", "" ]
+  },
+
+
+  "violationsystem": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Выбор системы нарушений. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation)",
+    "Usage": [ "vs", "violationsystem" ]
+  },
+  "addwarn": {
+    "Category": "WarnSystem",
+    "MinDesc": "",
+    "Desc": "Добавить варн. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#vystavit-varn-na-servere)",
+    "Usage": [ "aw", "addwarn" ]
+  },
+  "delwarn": {
+    "Category": "WarnSystem",
+    "MinDesc": "",
+    "Desc": "Удалить варн. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#udalit-varn-na-servere)",
+    "Usage": [ "dw", "delwarn" ]
+  },
+
+
+  "reportrulesadd": {
+    "Category": "ReportSystem",
+    "MinDesc": "",
+    "Desc": "Добавить правило для репорт системы",
+    "Usage": [ "rr.add", "reportrules.add" ]
+  },
+  "reportpunishesadd": {
+    "Category": "ReportSystem",
+    "MinDesc": "",
+    "Desc": "Добавить нарушение для правила, в репорт системе.",
+    "Usage": [ "rp.add", "reportpunishes.add" ]
+  },
+  "reportrulesdel": {
+    "Category": "ReportSystem",
+    "MinDesc": "",
+    "Desc": "Удалить правило для репорт системы",
+    "Usage": [ "rr.del", "reportrules.del" ]
+  },
+  "reportpunishesdel": {
+    "Category": "ReportSystem",
+    "MinDesc": "",
+    "Desc": "Удалить нарушение для правила, в репорт системе.",
+    "Usage": [ "rp.del", "reportpunishes.del" ]
+  },
+
+  "report": {
+    "Category": "ReportSystem",
+    "MinDesc": "",
+    "Desc": "Выдать репорт пользователю",
+    "Usage": [ "r", "report" ]
+  },
+  "unreport": {
+    "Category": "ReportSystem",
+    "MinDesc": "",
+    "Desc": "Убрать репорт у пользователя.",
+    "Usage": [ "ur", "unreport" ]
+  },
+  "rules": {
+    "Category": "ReportSystem",
+    "MinDesc": "",
+    "Desc": "Открыть правила сервера",
+    "Usage": [ "rs", "rules" ]
+  },
+
+  "prefix": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Узнать/изменить префикс сервера. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/prefix)",
+    "Usage": [ "p", "prefix" ]
+  },
+
+  "commandinvise": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Узнать/(выключить,включить) команды бота. [Инструкция](https://docs.darlingbot.ru/commands/nastroiki-servera/commandinvisible).",
+    "Usage": [ "ci", "CommandInvise" ]
+  },
+
+  "task": {
+    "Category": "Временные задачи",
+    "MinDesc": "Сообщений выполнящиеся в определенное время",
+    "Desc": "Просмотр сообщений на повторение или единое выполнение в определенное время. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/otlozhennye-zadachi)",
+    "Usage": [ "ts", "task" ]
+  },
+
+  "taskadd": {
+    "Category": "Временные задачи",
+    "MinDesc": "Добавить сообщений выполнящиеся в определенное время",
+    "Desc": "Добавить сообщение на повторение или единое выполнение в определенное время. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/otlozhennye-zadachi)",
+    "Usage": [ "ts.add", "task.add" ]
+  },
+  "taskdel": {
+    "Category": "Временные задачи",
+    "MinDesc": "Удалить сообщений выполнящиеся в определенное время",
+    "Desc": "Удалить сообщение на повторение или единое выполнение в определенное время. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/otlozhennye-zadachi)",
+    "Usage": [ "ts.del", "task.del" ]
+  },
+
+
+  "levelroleadd": {
+    "Category": "Роли",
+    "MinDesc": "",
+    "Desc": "Добавить уровневую роль. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei#dobavlenie-rolei-na-server)",
+    "Usage": [ "lr.add", "levelrole.add" ]
+  },
+  "levelroledel": {
+    "Category": "Роли",
+    "MinDesc": "",
+    "Desc": "Удалить уровневую роль. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei#dobavlenie-rolei-na-server)",
+    "Usage": [ "lr.del", "levelrole.del" ]
+  },
+  "channelsettings": {
+    "Category": "Настройка каналов",
+    "MinDesc": "",
+    "Desc": "Настройки канала. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov)",
+    "Usage": [ "cs", "channelsettings" ]
+  },
+  "menustyle": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Настройка стиля меню.",
+    "Usage": [ "mes", "menustyle" ]
+  },
+  "timerole": {
+    "Category": "Роли",
+    "MinDesc": "",
+    "Desc": "Просмотр списка временных ролей.",
+    "Usage": [ "tr", "timerole" ]
+  },
+  "timeroleadd": {
+    "Category": "Роли",
+    "MinDesc": "",
+    "Desc": "Добавить временную роль.",
+    "Usage": [ "tr.add", "timerole.add" ]
+  },
+  "timeroledel": {
+    "Category": "Роли",
+    "MinDesc": "",
+    "Desc": "Удалить временную роль.",
+    "Usage": [ "tr.del", "timerole.del" ]
+  },
+  "voicepoint": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Настройка получения опыта за голосовые каналы.",
+    "Usage": [ "vp", "voicepoint" ]
+  },
+  "channelsettingsbadword": {
+    "Category": "Настройка каналов",
+    "MinDesc": "",
+    "Desc": "Добавить запрещенное слово для канала. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov#nastroika-upravleniya-plokhimi-slovami)",
+    "Usage": [ "cs.bw", "channelsettings.badword" ]
+  },
+  "channelsettingsurlwhitelist": {
+    "Category": "Настройка каналов",
+    "MinDesc": "",
+    "Desc": "Белый список ссылок. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov#dobavit-ssylku-v-belyi-list)",
+    "Usage": [ "cs.uwl", "channelsettings.urlwhitelist" ]
+  },
+  "logsettings": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Логирования на сервере. [Инструкция](https://docs.darlingbot.ru/komandy/nastroiki-servera/logsettings-ls)",
+    "Usage": [ "ls", "logsettings" ]
+  },
+  "messagesettings": {
+    "Category": "Действия при входе",
+    "MinDesc": "",
+    "Desc": "Параметров при входе/выходе пользователя. [Инструкция](https://docs.darlingbot.ru/komandy/nastroiki-servera/messagesettings-ms)",
+    "Usage": [ "ms", "messagesettings" ]
+  },
+  "privatechannelcreate": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Создать категорию приватных каналов. [Инструкция](https://docs.darlingbot.ru/komandy/nastroiki-servera/privatechannelcreate-pcc)",
+    "Usage": [ "pcc", "privatechannelcreate" ]
+  },
+  "raidsettings": {
+    "Category": "Действия при входе",
+    "MinDesc": "",
+    "Desc": "Защита от рейдов. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/anti-raid-sistema)",
+    "Usage": [ "rds", "raidsettings" ]
+  },
+  "buttonclick": {
+    "Category": "Действие на кнопку",
+    "MinDesc": "",
+    "Desc": "Просмотр списка кнопок по нажатию которых происходит действие",
+    "Usage": [ "bc", "buttonclick" ]
+  },
+  "buttonclickadd": {
+    "Category": "Действие на кнопку",
+    "MinDesc": "",
+    "Desc": "Добавить отправку сообщения, по нажатию на кнопку",
+    "Usage": [ "bc.add", "buttonclick.add" ]
+  },
+  "buttonclickaddrole": {
+    "Category": "Действие на кнопку",
+    "MinDesc": "",
+    "Desc": "Создать действие на выдачу/удаления роли по нажатию на кнопку",
+    "Usage": [ "bc.addrole", "buttonclick.addrole" ]
+  },
+  "buttonclickdel": {
+    "Category": "Действие на кнопку",
+    "MinDesc": "",
+    "Desc": "Удалить кнопку и действие.",
+    "Usage": [ "bc.del", "buttonclick.del" ]
+  },
+  "emoteclick": {
+    "Category": "Действие за нажатие",
+    "MinDesc": "",
+    "Desc": "Информация о выдачи роли за нажатие на эмодзи. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/rol-po-nazhatiyu-na-emodzi)",
+    "Usage": [ "ec", "emoteclick" ]
+  },
+  "emoteclickadd": {
+    "Category": "Действие за нажатие",
+    "MinDesc": "",
+    "Desc": "Добавить выдачу/удаление роли за нажатие на эмодзи. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/rol-po-nazhatiyu-na-emodzi)",
+    "Usage": [ "ec.add", "emoteclick.add" ]
+  },
+  "emoteclickdel": {
+    "Category": "Действие за нажатие",
+    "MinDesc": "",
+    "Desc": "Удалить выдачу/удаление роли за нажатие на эмодзи. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/rol-po-nazhatiyu-na-emodzi)",
+    "Usage": [ "ec.del", "emoteclick.del" ]
+  },
+  "buyroleadd": {
+    "Category": "Роли",
+    "MinDesc": "",
+    "Desc": "Добавить роль в магазин ролей. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/roli/platnye-roli)",
+    "Usage": [ "br.add", "buyrole.add" ]
+  },
+  "buyroledel": {
+    "Category": "Роли",
+    "MinDesc": "",
+    "Desc": "Удалить роль в магазине ролей. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/roli/platnye-roli)",
+    "Usage": [ "br.del", "buyrole.del" ]
+  },
+
+
+  "level": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Узнать свой/пользователя уровень на сервере. [Инструкция](https://docs.darlingbot.ru/commands/user-commands/level)",
+    "Usage": [ "l", "level" ]
+  },
+  "usertop": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Топ 10 участников сервера по опыту. [Инструкция](https://docs.darlingbot.ru/commands/user-commands/usertop)",
+    "Usage": [ "ut", "usertop" ]
+  },
+  "marry": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Пожениться на пользователе. [Инструкция](https://docs.darlingbot.ru/commands/user-commands/marry)",
+    "Usage": [ "mr", "marry" ]
+  },
+  "roulette": {
+    "Category": "Экономика",
+    "MinDesc": "Играть в рулетку",
+    "Desc": "Играть в рулетку. Для игры нужно сделать ставку, и после на 60 секунд запустится игра, в которой все должны поставить деньги, и по истечению времени, рандом выберет победителя.! [Инструкция](https://docs.darlingbot.ru/commands/user-commands/roulette)",
+    "Usage": [ "rl", "roulette" ]
+  },
+  "divorce": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Развестись с пользователем. [Инструкция](https://docs.darlingbot.ru/commands/user-commands/divorce)",
+    "Usage": [ "di", "divorce" ]
+  },
+  "zcoin": {
+    "Category": "Экономика",
+    "MinDesc": "",
+    "Desc": "Узнать свое/участника кол-во ZeroCoin. [Инструкция](https://docs.darlingbot.ru/commands/user-commands/zcoin)",
+    "Usage": [ "zc", "zcoin" ]
+  },
+  "kazino": {
+    "Category": "Экономика",
+    "MinDesc": "Играть в казино.",
+    "Desc": "Играть в казино. Для игры нужно сделать ставку [allblack/allred/allzero/black/red/zero] после выставить нужную вам сумму [zerocoin] [Инструкция](https://docs.darlingbot.ru/commands/user-commands/kazino)",
+    "Usage": [ "kz", "kazino" ]
+  },
+  "birthdate": {
+    "Category": "",
+    "MinDesc": "Поставить дату своего рождения",
+    "Desc": "Поставить дату своего рождения\nПример - 05.10.2001",
+    "Usage": [ "bd", "birthdate" ]
+  },
+  "daily": {
+    "Category": "Экономика",
+    "MinDesc": "",
+    "Desc": "Получить ежедневную награду. [Инструкция](https://docs.darlingbot.ru/commands/user-commands/daily)",
+    "Usage": [ "d", "daily" ]
+  },
+  "reputation": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Выдать репутацию пользователю.",
+    "Usage": [ "rep", "reputation" ]
+  },
+  "profile": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Открыть свой/участника профиль. [Инструкция](https://docs.darlingbot.ru/commands/user-commands/profile)",
+    "Usage": [ "pf", "profile" ]
+  },
+  "transfer": {
+    "Category": "Экономика",
+    "MinDesc": "",
+    "Desc": "Перевести деньги пользователю. [Инструкция](https://docs.darlingbot.ru/commands/user-commands/transfer)",
+    "Usage": [ "ts", "transfer" ]
+  },
+  "myinvite": {
+    "Category": "",
+    "MinDesc": "",
+    "Desc": "Посмотреть свои инвайты на сервер. [Инструкция](https://docs.darlingbot.ru/commands/user-commands/myinvite)",
+    "Usage": [ "mi", "myinvite" ]
+  },
+  "warns": {
+    "Category": "WarnSystem",
+    "MinDesc": "",
+    "Desc": "Нарушения в системе варнов. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#posmotret-varny-na-servere)",
+    "Usage": [ "ws", "warns" ]
+  },
+  "levelrole": {
+    "Category": "Роли",
+    "MinDesc": "",
+    "Desc": "Узнать уровневые роли. [Инструкция](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei)",
+    "Usage": [ "lr", "levelrole" ]
+  },
+  "buyrole": {
+    "Category": "Роли",
+    "MinDesc": "",
+    "Desc": "Купить/посмотреть роли в магазине ролей. [Инструкция](https://docs.darlingbot.ru/commands/user-commands/buyrole)",
+    "Usage": [ "br", "buyrole" ]
+  }
+}
